@@ -10,11 +10,13 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^4.29.1",
+    "framer-motion": "^10.16.16",
     "graphql": "^16.8.1",
     "graphql-request": "^6.1.0",
     "next": "14.0.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "swiper": "^11.0.5"
   },
   "devDependencies": {
     "@types/node": "^20",

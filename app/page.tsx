@@ -5,6 +5,7 @@ import { getProductLists } from "./services";
 import Hero from "./components/Hero";
 import FeaturedCategories from "./components/FeaturedCategories";
 import ProductCard from "./components/ProductCard";
+import Scooty from "./components/Scooty";
 
 export default function Home() {
   const [productLists, setProductLists] = useState([]);
@@ -28,6 +29,7 @@ export default function Home() {
       <FeaturedCategories />
       <ProductCard />
       <ProductList productLists={productLists} />
+      <Scooty />
     </main>
   );
 }

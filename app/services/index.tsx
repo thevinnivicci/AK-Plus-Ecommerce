@@ -11,6 +11,9 @@ export const getProductLists = async () => {
         productPrice
         publishedAt
         updatedAt
+        productImage {
+          url
+        }
       }
     }
   `;
